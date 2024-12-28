@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Names with Boxes</title>
+    <link rel="stylesheet" href="style3.css">
+    <script src="script3.js" defer></script>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="side-nav">
+        <h2> Worker book </h2>
+        <ul>
+            <li><a href="page2.html"><i>Home</i></a></li>
+            <li><a href="#paid" data-section="paid" class="nav-option"><i>Paid</i></a></li>
+            <li><a href="#received" data-section="received" class="nav-option"><i> Received</i></a></li>
+            <li><a href="#repairs" data-section="repairs" class="nav-option"><i>Repairs</i></a></li>
+            <li><a href="#castingitems" data-section="castingitems" class="nav-option"><i> Casting items</i></a></li>
+            <li><a href="#chains" data-section="chains" class="nav-option"><i>Chains</i></a></li>
+            <li><a href="#overallbalance" data-section="overallbalance" class="nav-option"><i>Overall Balance</i></a></li>
+        </ul> 
+    </div>
+    <div class="main_content">
+        <div class="header"><h1>Paramesh </h1></div> 
+        <div class="container">
+            <div class="name-container">        
+                <ul>
+                    <li><label for="userInput" class="input-label">Date:</label>
+                        <input type="date" id="date" class="text-input"></li><br>
+                    <li><label for="userInput" class="input-label">Employee name:</label>
+                        <input type="text" id="ename" class="text-input" ></li><br>
+                    <li><label for="userInput" class="input-label">Pure(gms):</label>
+                        <input type="number" id="pure" class="text-input" ></li><br>
+                    <li><label for="userInput" class="input-label">916 KDM:</label>
+                        <input type="number" id="kdm" class="text-input" ></li><br>
+                    <li><label for="userInput" class="input-label">Employee name:</label>
+                        <input type="text" id="item" class="text-input" ></li><br>
+                    <li><label for="userInput" class="input-label">Item:</label>
+                        <input type="text" id="userInput" class="text-input" ></li><br>
+                    <li><label for="userInput" class="input-label">Delivery date:</label>
+                        <input type="date" id="userInput" class="text-input"></li><br>   
+                </ul>
+                <button id="calculate" class="submit-button" type="submit">Calculate</button>
+            </div>
+    
+            <div class="output-container">
+                <ul>
+                    <li><label for="output" class="input-label">Total Pure :</label></li><br>
+                    <li><label for="output" class="input-label">Total KDM :</label></li><br>
+                    <li><label for="output" class="input-label">Overall given : </label></li><br>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

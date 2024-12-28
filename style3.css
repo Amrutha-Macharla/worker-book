@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  body{
+     background-color: #f3f5f9;
+     font-family: Arial, sans-serif;
+     margin: 0;
+  }
+
+  .wrapper{
+    display: flex;
+    position: relative;
+  }
+  
+  .wrapper .side-nav{
+    width: 200px;
+    height: 100%;
+    background: #7c78b8;
+    padding: 30px 0px;
+    position: fixed;
+  }
+  
+  .wrapper .side-nav h2{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .wrapper .side-nav ul li{
+    padding: 15px;
+    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(255,255,255,0.05);
+  }    
+
+  .wrapper .side-nav ul li a{
+    color: #fff;
+    display: block;
+  }
+  
+  .wrapper .side-nav ul li a .fas{
+    width: 25px;
+  }
+  
+  .wrapper .side-nav ul li:hover{
+    background-color: #776bcc;
+  }
+      
+  .wrapper .side-nav ul li:hover a{
+    color: #fff;
+  }
+  
+  .wrapper .main_content{
+    width: 100%;
+  }
+  
+  .wrapper .main_content .header{
+    margin-left: 200px;
+    padding: 20px;
+    background: #fff;
+    color: #717171;
+    border-bottom: 1px solid #e0e4e8;
+  }
+
+  .wrapper .main_content .name-container{
+    margin-left: 300px;
+    margin-top : 50px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    max-width: 400px;
+    font-size: 15px;
+}
+  
+  .wrapper .main_content .info{
+    margin-left: 300px;
+    margin: 20px;
+    color: #717171;
+    line-height: 25px;
+  }
+  
+  .wrapper .main_content .info div{
+    margin-left: 300px;
+    margin-bottom: 20px;
+  }
+
+  .wrapper .main_content .output-container{
+    margin-left: 900px;
+    margin-top : 80px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px;
+}
+.wrapper .main_content .name-container .text-input {
+    width: 100%;
+    padding: 4px; 
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 15px; 
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+}
+
+
+/* Center the button */
+.wrapper .main_content .name-container .submit-button {
+  display: inline-block; /* Ensure the button behaves like inline content */
+  background-color: #7c78b8;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 15px; /* Add spacing above the button */
+
+}
+
+/* Hover effect */
+.wrapper .main_content .name-container .submit-button:hover {
+  background-color: #776bcc;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Active/Pressed effect */
+.wrapper .main_content .name-container .submit-button:active {
+  transform: scale(0.98);
+  background-color: #3b74a2;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Focus outline */
+.wrapper .main_content .name-container .submit-button:focus {
+  outline: 3px solid rgba(91, 155, 213, 0.6);
+}
